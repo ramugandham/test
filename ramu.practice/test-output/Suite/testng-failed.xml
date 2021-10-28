@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ramu.businessscripts.FbTest">
+        <methods>
+          <include name="beforeTCExec"/>
+          <include name="afterTCExecution"/>
+        </methods>
+      </class> <!-- com.ramu.businessscripts.FbTest -->
+      <class name="com.ramu.businessscripts.BingTest">
+        <methods>
+          <include name="beforeTCExec"/>
+          <include name="afterTCExecution"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.ramu.businessscripts.BingTest -->
+      <class name="com.ramu.businessscripts.GmailTest">
+        <methods>
+          <include name="beforeTCExec"/>
+          <include name="afterTCExecution"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.ramu.businessscripts.GmailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

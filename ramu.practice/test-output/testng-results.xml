@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10214" started-at="2019-06-10T14:23:47Z" finished-at="2019-06-10T14:23:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10214" started-at="2019-06-10T14:23:47Z" finished-at="2019-06-10T14:23:57Z">
+      <class name="com.ramu.businessscripts.GmailTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.ramu.businessscripts.GmailTest@2d6e8792]" name="openBrowser" is-config="true" duration-ms="9740" started-at="2019-06-10T19:53:37Z" finished-at="2019-06-10T19:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ramu.businessscripts.GmailTest@2d6e8792]" name="loginTest" duration-ms="10188" started-at="2019-06-10T19:53:47Z" finished-at="2019-06-10T19:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="beforeTCExec(java.lang.reflect.Method)[pri:0, instance:com.ramu.businessscripts.GmailTest@2d6e8792]" name="beforeTCExec" is-config="true" duration-ms="0" started-at="2019-06-10T19:53:47Z" finished-at="2019-06-10T19:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ramu.businessscripts.GmailTest.loginTest() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExec -->
+        <test-method status="PASS" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.ramu.businessscripts.GmailTest@2d6e8792]" name="afterTCExecution" is-config="true" duration-ms="1" started-at="2019-06-10T19:53:57Z" finished-at="2019-06-10T19:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=GmailTest.loginTest()[pri:0, instance:com.ramu.businessscripts.GmailTest@2d6e8792] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ramu.businessscripts.GmailTest@2d6e8792]" name="closeBrowser" is-config="true" duration-ms="2117" started-at="2019-06-10T19:53:57Z" finished-at="2019-06-10T19:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ramu.businessscripts.GmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
