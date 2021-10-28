@@ -13,7 +13,7 @@ public class Test {
 		int total = Test.add();
 		
 	System.out.println(total);
-	System.out.println("changes");
+	System.out.println("changes  files");
 
 	}
 
