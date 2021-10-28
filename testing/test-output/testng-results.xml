@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18185" started-at="2021-10-20T13:12:33Z" finished-at="2021-10-20T13:12:51Z">
+  <suite name="Default suite" duration-ms="76" started-at="2021-10-28T08:12:04Z" finished-at="2021-10-28T08:12:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18185" started-at="2021-10-20T13:12:33Z" finished-at="2021-10-20T13:12:51Z">
-      <class name="org.testing.qatesting.Tc_GmailLogin">
-        <test-method status="PASS" signature="login()[pri:0, instance:org.testing.qatesting.Tc_GmailLogin@2ed0fbae]" name="login" duration-ms="11065" started-at="2021-10-20T13:12:33Z" finished-at="2021-10-20T13:12:44Z">
+    <test name="Default test" duration-ms="76" started-at="2021-10-28T08:12:04Z" finished-at="2021-10-28T08:12:04Z">
+      <class name="org.testing.qatesting.Test">
+        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.qatesting.Test@77caeb3e]" name="test" duration-ms="11" started-at="2021-10-28T08:12:04Z" finished-at="2021-10-28T08:12:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- org.testing.qatesting.Tc_GmailLogin -->
-      <class name="org.testing.qatesting.Tc_fbLogin">
-        <test-method status="PASS" signature="login()[pri:0, instance:org.testing.qatesting.Tc_fbLogin@212bf671]" name="login" duration-ms="7075" started-at="2021-10-20T13:12:44Z" finished-at="2021-10-20T13:12:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- org.testing.qatesting.Tc_fbLogin -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+      </class> <!-- org.testing.qatesting.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
