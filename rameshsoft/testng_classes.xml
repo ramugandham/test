@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome"></parameter>
+<!-- <listeners>
+  <listener class-name="com.rameshsoft.automation.listeners.TestListnerAdapterTest"></listener>
+</listeners> -->
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest"/>
+      <!-- <class name="com.rameshsoft.automaton.gmail.businessscripts.GmailTest"/>
+      <class name="com.rameshsoft.automaton.gmail.businessscripts.FBTest"/>
+      <class name="com.rameshsoft.automaton.gmail.businessscripts.FPTest"/>
+      <class name="com.rameshsoft.automaton.gmail.businessscripts.InstTest"/>
+      <class name="com.rameshsoft.automaton.gmail.businessscripts.AmazonTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
