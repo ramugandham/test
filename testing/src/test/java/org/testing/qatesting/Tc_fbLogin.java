@@ -13,7 +13,8 @@ public class Tc_fbLogin {
 		 WebDriver driver=new ChromeDriver();
          driver.manage().deleteAllCookies();
          driver.manage().window().maximize();
-         driver.get("https://facebook.com");
+         driver.get("https://facebook.com"); 
+		//cheack hooks
          driver.quit();
 	}
 
