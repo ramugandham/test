@@ -27,7 +27,7 @@ public class Tc_GmailLogin {
          WebElement myElement = driver.findElement(By.id("password"));
          String js = "arguments[0].setAttribute('value','"+inputText+"')";
          ((JavascriptExecutor) driver).executeScript(js, myElement);
-         
+         //hello
         // driver.findElement(By.id("password")).click();
          //driver.findElement(By.id("password")) .sendKeys("9014991223");
          driver.findElement(By.id("passwordNext")).click();
