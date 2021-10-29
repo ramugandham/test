@@ -5,6 +5,7 @@
     <classes>
       <class name="org.testing.qatesting.Tc_GmailLogin"/>
       <class name="org.testing.qatesting.Tc_fbLogin"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
