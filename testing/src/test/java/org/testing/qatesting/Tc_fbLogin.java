@@ -14,6 +14,7 @@ public class Tc_fbLogin {
          driver.manage().deleteAllCookies();
          driver.manage().window().maximize();
          driver.get("https://facebook.com");
+	//changes
          driver.quit();
 	}
 
