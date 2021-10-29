@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76" started-at="2021-10-28T08:12:04Z" finished-at="2021-10-28T08:12:04Z">
+  <suite name="Default suite" duration-ms="19086" started-at="2021-10-29T07:31:41Z" finished-at="2021-10-29T07:32:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76" started-at="2021-10-28T08:12:04Z" finished-at="2021-10-28T08:12:04Z">
-      <class name="org.testing.qatesting.Test">
-        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.qatesting.Test@77caeb3e]" name="test" duration-ms="11" started-at="2021-10-28T08:12:04Z" finished-at="2021-10-28T08:12:04Z">
+    <test name="Default test" duration-ms="19086" started-at="2021-10-29T07:31:41Z" finished-at="2021-10-29T07:32:00Z">
+      <class name="org.testing.qatesting.Tc_GmailLogin">
+        <test-method status="PASS" signature="login()[pri:0, instance:org.testing.qatesting.Tc_GmailLogin@91161c7]" name="login" duration-ms="19049" started-at="2021-10-29T07:31:41Z" finished-at="2021-10-29T07:32:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- org.testing.qatesting.Test -->
+        </test-method> <!-- login -->
+      </class> <!-- org.testing.qatesting.Tc_GmailLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

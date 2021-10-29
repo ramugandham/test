@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40416" started-at="2019-05-04T05:21:35Z" finished-at="2019-05-04T05:22:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40416" started-at="2019-05-04T05:21:35Z" finished-at="2019-05-04T05:22:15Z">
+      <class name="com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest@153f17c]" name="openBrowser" is-config="true" duration-ms="7531" started-at="2019-05-04T10:51:27Z" finished-at="2019-05-04T10:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="intialiseReports()[pri:0, instance:com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest@153f17c]" name="intialiseReports" is-config="true" duration-ms="385" started-at="2019-05-04T10:51:35Z" finished-at="2019-05-04T10:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialiseReports -->
+        <test-method status="PASS" signature="beforeTCExec(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest@153f17c]" name="beforeTCExec" is-config="true" duration-ms="7" started-at="2019-05-04T10:51:35Z" finished-at="2019-05-04T10:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest.login() throws java.io.IOException,org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExec -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest@153f17c]" name="login" duration-ms="39103" started-at="2019-05-04T10:51:35Z" finished-at="2019-05-04T10:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTCExec(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest@153f17c]" name="afterTCExec" is-config="true" duration-ms="0" started-at="2019-05-04T10:52:14Z" finished-at="2019-05-04T10:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=POMGmailTest.login()[pri:0, instance:com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest@153f17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExec -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest@153f17c]" name="generateReports" is-config="true" duration-ms="882" started-at="2019-05-04T10:52:14Z" finished-at="2019-05-04T10:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest@153f17c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-05-04T10:52:15Z" finished-at="2019-05-04T10:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

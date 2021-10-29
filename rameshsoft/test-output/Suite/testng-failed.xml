@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest">
+        <methods>
+          <include name="generateReports"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="afterTCExec"/>
+          <include name="closeBrowser"/>
+          <include name="intialiseReports"/>
+          <include name="beforeTCExec"/>
+        </methods>
+      </class> <!-- com.rameshsoft.automaton.gmail.businessscripts.POMGmailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

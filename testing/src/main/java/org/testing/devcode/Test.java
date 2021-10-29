@@ -12,8 +12,11 @@ public class Test {
 	public static void main(String[] args) {
 		int total = Test.add();
 		
+
 	System.out.println("add sum;"+total);
 	System.out.println("changes  files");
+	System.out.println(total);
+	System.out.println("changes");
 
 	}
 
