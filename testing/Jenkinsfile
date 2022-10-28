@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('bulid') {
+            steps {
+                echo 'bulid the applictions'
+            }
+        }
+         stage('test') {
+            steps {
+                echo 'test the applictions'
+            }
+        }
+         stage('deploye') {
+            steps {
+                echo 'deploye the applictions'
+            }
+        }
+    }
+    post{
+        always{
+            emailext body: 'summery', subject: 'pipeline status', to: 'gnramu1223@gmail.com'
+        }
+    }
+}
